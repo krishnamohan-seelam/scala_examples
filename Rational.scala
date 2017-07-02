@@ -26,3 +26,18 @@ class Rational (x:Int,y:Int) {
   
   def max(that:Rational)  =  if (this <  that )  that else that
 }
+
+object RationalApp extends App
+{
+   val a= new Rational(100,200)    
+   val b  = new Rational(2,3) 
+   
+   println(s"Addition example :${a + b}")
+   println(s"Subtraction example :${a - b}")
+   println(s" Multiplication example :${a * b}")
+   println(s" Division example :${a / b}")
+   
+   
+}
+
+ 
